@@ -21,7 +21,6 @@
             <ul class="menu">
                 <li><a href="#informacao">About Me</a></li>
                 <li><a href="#minhas-habilidades">programming languages </a></li>
-                <li><a href="#projetos">My Projects</a></li>
                 <li><a href="#contatos">Contact</a></li>
             </ul>
         </nav>
@@ -31,8 +30,8 @@
             <div id="sobre">
                 <h1>Aws Afaneh</h1>
                 <h2>Web-Site Developer</h2>
-                <h3>Web-Site developer , freelancer , Digital Marketing Skills
-                    Cyber Security Tra.</h3>
+                <h3>Web-Site developer , freelancer , Digital Marketing Skills , 
+                    Cyber Security Trainer.</h3>
             </div>
             <div id="codigo">
                 <span><pre class="hljs" style="display: block; overflow-x: auto; color: rgb(186, 186, 186);">let <span class="hljs-keyword" style="color: rgb(203, 120, 50);">button_menu </span>= document.querySelector(<span class="hljs-string" style="color: rgb(224, 196, 108);">".header_button"</span>)<span class="hljs-comment" style="color: rgb(127, 127, 127);">;</span>
@@ -101,44 +100,6 @@ function <span class="hljs-keyword" style="color: rgb(203, 120, 50);">addEffectW
                 </div>
             </div>
         </section>
-        <section id="projetos">
-            <h1>Projects</h1>
-            <div id="sites">
-                <div id="shopify" allowfullscreen>
-                    <h1>Project LoadingPage Shopify</h1>
-                    <iframe src="./Shopify/index.html" frameborder="0" style="background-color: #fff;" height="100%" width="100%"></iframe>
-                    <div class="botoes">
-                        <button class="botao-tela-cheia">View project in full screen</button>
-                        <a href="https://github.com/carloseduardori/Portifolio-Projetos/tree/main/Shopify" target="_blank"><button>Go to the repository</button></a>
-                    </div>
-                </div>
-                <div id="netflix" allowfullscreen>
-                    <h1>Project Clone Site Netflix</h1>
-                    <iframe src="./Netflix/index.html" frameborder="0" style="background-color: #fff;" height="100%" width="100%"></iframe>
-                    <div class="botoes">
-                        <button class="botao-tela-cheia">View project in full screen</button>
-                        <a href="https://github.com/carloseduardori/Portifolio-Projetos/tree/main/Netflix" target="_blank"><button>Go to the repository</button></a>
-                    </div>
-                </div>
-                <div id="bikcraft" allowfullscreen>
-                    <h1>Projeto Site BikCraft</h1>
-                    <iframe src="./Bikcraft/index.html" frameborder="0" style="background-color: #fff;" height="100%" width="100%"></iframe>
-                    <div class="botoes">
-                        <button class="botao-tela-cheia">View project in full screen</button>
-                        <a href="https://github.com/carloseduardori/Portifolio-Projetos/tree/main/Bikcraft" target="_blank"><button>Go to the repository</button></a>
-                    </div>
-                </div>
-                <div id="wildbeast" allowfullscreen>
-                    <h1>Projeto Site WildBest</h1>
-                    <iframe src="./WildBeast/index.html" frameborder="0" style="background-color: #fff;" height="100%" width="100%"></iframe>
-                    <div class="botoes">
-                        <button class="botao-tela-cheia">View project in full screen</button>
-                        <a href="https://github.com/carloseduardori/Portifolio-Projetos/tree/main/WildBeast" target="_blank"><button>Go to the repository</button></a>
-                    </div>
-                </div>
-            </div>
-            <a href="https://github.com/carloseduardori" target="_blank"><button class="mais">See More</button></a>
-        </section>
     </main>
     <footer>
         <div id="msg">
@@ -164,15 +125,6 @@ let menu = document.querySelector(".menu");
 
 menuButton.addEventListener("click", function () {
     menu.classList.toggle("open");
-});
-
-const botoesTelaCheia = document.querySelectorAll('.botao-tela-cheia');
-const iframes = document.querySelectorAll('iframe');
-
-botoesTelaCheia.forEach((botao, index) => {
-  botao.addEventListener('click', () => {
-    iframes[index].requestFullscreen();
-  });
 });
 </script>
 </body>
